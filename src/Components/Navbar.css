@@ -1,0 +1,43 @@
+.navbar{
+    max-width: 100%;
+    background: black;
+    color: white;
+}
+
+.navbar .container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.navbar .logo{
+    margin-right: auto;
+}
+
+.navbar .logo img{
+    width: 50px;
+    display: block;
+}
+
+.navbar .links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+   
+}
+
+.navbar span {
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,76 @@
+.register{
+    max-width: 500px;
+    background-color: #eee;
+    margin: 30px auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.register form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register form > div{
+    margin-top: 30px;
+}
+
+.register form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border:none;
+    background-color: 1 px solid ghostwhite;
+}
+
+.register button{
+    padding: 10px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+}
+/* .app {
+    .container {
+         //Login & Register
+
+        .auth {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+            
+            h1 { 
+                font-size: 40px;
+                color: pink;
+                margin-bottom: 40px;
+
+                form {
+                   
+                }
+
+                input {
+                  
+
+                }
+
+                button {
+                    padding: 10px;
+                    border: none;
+                    background-color: pink;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+    
+   } 
+} */
